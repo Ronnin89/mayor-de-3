@@ -1,6 +1,6 @@
-primero = gets.chomp.to_i
-segundo = gets.chomp.to_i
-tercero = gets.chomp.to_i
+primero = ARGV[0].chomp.to_i
+segundo = ARGV[1].chomp.to_i
+tercero = ARGV[2].chomp.to_i
 
 # if primero > segundo
 #     if primero > tercero
