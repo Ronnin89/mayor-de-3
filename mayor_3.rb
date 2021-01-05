@@ -1,21 +1,21 @@
-primero = ARGV[0].chomp.to_i
-segundo = ARGV[1].chomp.to_i
-tercero = ARGV[2].chomp.to_i
+first = ARGV[0].chomp.to_i
+second = ARGV[1].chomp.to_i
+third = ARGV[2].chomp.to_i
 
-# if primero > segundo
-#     if primero > tercero
-#         puts primero
+# if first > second
+#     if first > third
+#         puts first
 #     else
-#         puts tercero
+#         puts third
 #     end
 # else
-#     if segundo > tercero
-#         puts segundo
+#     if second > third
+#         puts second
 #     else
-#         puts tercero
+#         puts third
 #     end
 # end
 
-puts primero if primero > segundo && primero > tercero
-puts segundo if segundo > primero && segundo > tercero
-puts tercero if tercero > primero && tercero > segundo
+puts first if first > second && first > third
+puts second if second > first && second > third
+puts third if third > first && third > second
